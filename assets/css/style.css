@@ -1,0 +1,387 @@
+
+body{
+     
+	background-image: url("../images/portfoliobackgroundimg.jpg");
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.header{
+	background-color: #ffffff;
+	width: 100%;
+	height: 100px;
+	color: #777777;
+
+}
+span{
+	opacity: 0.1;
+}
+
+#name{
+	font-size: 20px;
+	margin: -10px 20px 20px 20px;
+	font-weight: bolder;
+	color: white;
+	
+	
+}
+
+#two{
+	float: right;
+	margin:-20px 10px 10px 10px;
+	color: #777777
+}
+#three{
+	float: right;
+	margin:-20px 10px 10px 10px;
+	color: #777777
+}
+#four{
+	float: right;
+	margin:-20px 10px 10px 10px;
+	color: #777777
+}
+.name{
+	position: relative;
+	bottom: -30px;
+	background-color: #4aaaa5;
+	width: 150px;
+	height:70px;
+	margin-left: 150px;
+	padding-top: 20px;
+
+
+}
+
+.container{
+	width: 960px;
+}
+
+.about{
+	margin-left:  800px;
+}
+.sub{
+	padding: 30px 40px 30px 30px;
+}
+
+.maincontent,.contactform,.port{
+	width: 650px;
+	height: 500px;
+	background-color: #ffffff;
+	margin: 40px 20px 20px 20px;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.aboutme{
+	color: #4aaaa5;
+	padding: 20px 0px 20px 20px; 
+	border-bottom: solid;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom-width:2px;
+	border-bottom-color:#bbbbbb;
+
+}
+#profileimg{
+	float: left;
+	padding: 20px 20px 20px 20px;
+
+}
+.para{
+	line-height: 2;
+	color: #777777;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.contactform{
+	width: 650px;
+	height: 500px;
+	background-color: #ffffff;
+}
+
+input[type=text],input[type=Email]{
+	width: 90%;
+	padding: 10px 10px;
+	margin-left: 20px;
+	display: inline-block;
+	
+
+}
+
+input[type=textarea]{
+	width: 90%;
+	height: 150px;
+	margin-left: 20px;
+}
+input[type=submit]{
+	background-color:#4aaaa5;
+	color: white ;
+	margin-left: 20px;
+	margin-top: 10px;
+	text-align: center;
+	width: 100px;
+	height: 50px
+
+}
+
+lable{
+	margin-left: 20px;
+	
+}
+
+.port{
+	width: 650px;
+	height: 600px;
+	background-color: #ffffff;
+}
+
+.img1{
+	float: left;
+	padding: 30px 20px 20px 20px;
+	margin-top: -20px;
+}
+.img2{
+	float: left;
+	padding: 30px 20px 20px 20px;
+	margin-top: -20px;
+}
+.img3{
+	float: left;
+	padding: 20px 20px 20px 20px;
+	margin-top: -50px;
+}
+.img4{
+	float: left;
+	padding: 20px 20px 20px 20px;
+	margin-top: -50px;
+}
+.subdiv{
+	padding: 20px 20px 20px 20px;
+}
+
+.linkbox{
+	
+	position: absolute;
+	top:150px;
+	left: 900px;
+	width: 270px;
+	height: 150px;
+	background-color: #ffffff;
+
+	
+}
+#connect{
+	color: #4aaaa5;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	border-bottom: solid;
+	margin-top: -20px;
+	border-bottom-width:2px;
+	border-bottom-color:#bbbbbb;
+}
+
+#git{
+	padding: 20px 10px 30px 30px;
+}
+footer{
+	background-color: #666666;
+	height: 80px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 6px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 100px;
+	position: sticky;
+	
+
+}
+.title{
+	background-color: #4aaaa5;
+	width: 200px;
+	height: 50px;
+	position: relative;
+	top :-70px;
+	
+}
+.titletext{
+	 padding: 10px 10px 10px 50px;
+	 color: white;
+	 font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+@media only screen and (max-width: 980px){
+
+   .header{
+		background-color: #ffffff;
+		width: 100%;
+		height: 100px;
+		color: #777777;
+        }
+ 	.name{
+       	margin-left: 50px;
+
+		}	
+
+.maincontent{
+	width: 300px;
+	height: 1000px;
+	background-color: #ffffff;
+	margin: 40px 20px 20px -5px;
+	}
+.linkbox{
+	
+	position: absolute;
+	top:140px;
+	left: 350px;
+	width: 260px;
+	height: 150px;
+	background-color: #ffffff;
+	}
+
+#footerp{
+	margin-right: 100px;
+}
+.aboutme{
+	margin-top: -30px;
+}
+footer{
+	width: 100%;
+}
+
+.contactform{
+
+	width: 300px;
+
+}
+.port{
+	width: 300px;
+	height: 1000px;
+}
+.img2{
+	margin-top: -90px;
+}
+.img3{
+	margin-top: -80px;
+}
+.img4{
+	margin-top: -80px;
+}
+}
+
+@media only screen and (max-width: 768px){
+
+   .header{
+		background-color: #ffffff;
+		width: 100%;
+		height: 100px;
+		color: #777777;
+        }
+
+   #two{
+	
+	margin:-20px 60px 10px 10px;
+	}
+.maincontent{
+	width: 650px;
+	height: 420px;
+	
+	margin: 40px 20px 20px -5px;
+	}
+
+#connect{
+ 	text-align: left;
+ }
+
+
+.contactform{
+	width: 650px;
+	height: 450px;
+	
+	margin: 40px 20px 20px -5px;
+	}
+
+.port{
+	width: 650px;
+	height: 550px;
+}
+.sub{
+	margin-bottom: 30px;
+}
+
+.img1{
+	float: left;
+	padding: 30px 20px 20px 20px;
+	margin-top: -20px;
+}
+.img2{
+	float: left;
+	padding: 30px 20px 20px 20px;
+	margin-top: -20px;
+}
+.img3{
+	float: left;
+	padding: 20px 20px 20px 20px;
+	margin-top: -50px;
+}
+.img4{
+	float: left;
+	padding: 20px 20px 20px 20px;
+	margin-top: -50px;
+}
+.linkbox{
+	position: static;
+	width:650px;
+	height: 150px;
+	 margin-top: 50px;
+	}
+	
+footer{
+	width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 640px){
+   .name{
+   	width: 100%;
+   	background-color:#4aaaa5;
+   	position: static;
+   	top: 0px;
+   	margin-left: 0px;
+   	text-align: center; 
+   	height: 50px;
+   }
+  .nav2{
+  	float: left;
+  	margin-top: 30px;
+  	margin-left:  -90px;
+  	width: 100%;
+  }
+
+  
+
+.maincontent,.contactform{
+	width: 600px;
+	height: 450px;
+	
+	margin: 40px 20px 20px -5px;
+	}
+.linkbox{
+	position: static;
+	width:600px;
+	height: 150px;
+	 margin-top: 50px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
